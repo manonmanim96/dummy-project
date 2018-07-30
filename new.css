@@ -1,0 +1,75 @@
+    
+ :root{
+ 	font-size: 16px;
+ }
+ body {
+  margin: 0;
+  padding: 0; 
+}
+ .container{
+ 	display: block;
+ 	margin: 5vw;
+ }
+ .banner .card{
+ 	background: #2c2c2c;
+ 	border: 1px solid #2c2c2c;
+ 	border-radius: 10px;
+ 	box-shadow: 0px 3px 20px 2px #35eea4;
+ 	display: block;
+ }
+ .banner .card .heading{
+ 	color: #35eea4;
+ 	font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 5vw;
+    margin-bottom: 1vh;
+ }
+ .banner .card .sub-heading{
+    color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    padding: 0 5vw 2vw;
+    margin: 0;
+ }
+ .banner .card .sub-heading button{
+ 	color: #35eea4;
+ 	font-family: "Istok Web", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2vh; 	
+    padding: 10px;
+    transition: box-shadow 0.3s linear 0.1s;
+ }
+ .banner .card .sub-heading button:hover{
+ 	cursor: pointer;
+ 	box-shadow: 0 3px 20px 0 #35eea4;
+ }
+ .row{
+ 	display: block;
+ 	margin-top: 5vh;
+ }
+ .image .my-image{
+ 	border: 1px solid #35eea4;
+ 	border-radius: 5px;
+ 	box-shadow: 0 3px 20px 2px #2c2c2c;
+ 	float: right;
+ 	width: 25vw;
+ }
+ .row .paragraph{
+ 	float: left;
+ 	color: #2c2c2c;
+ 	font-family: "Istok Web", sans-serif;
+ 	width: 60%;
+ }
+ .row .icon-group{
+ 	margin-top: 2.5vh;
+ }
+ .icon-group .icon{
+ 	width: 2vw;
+ 	margin-right: 0.7vw;
+ }

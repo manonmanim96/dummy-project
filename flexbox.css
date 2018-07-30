@@ -1,0 +1,21 @@
+.parent{
+	display: flex;
+    border:3px solid blue; 
+    height: 600px; 
+    flex-direction: column;
+}
+
+.item{
+	background-color: blue;
+	text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    align-self: flex-start;
+}
+.item:nth-child(2){
+	flex:2 3 10px;
+}
+
+	
